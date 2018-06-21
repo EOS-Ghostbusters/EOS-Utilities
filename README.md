@@ -3,7 +3,7 @@ EOS Tools and Scripts by the Ghostbusters Team: Blockmatrix, HKEOS, EOSRio, EOS 
 
 #### restarter.pl - Perl script for monitoring/restarting EOS node and sending SMS alerts oon restart and fail.
 ##### Install as a cronjob on your system as often as you would like.
-##### Before you could use the script:
+##### Before you could use the scripts:
 
 ##### 1. Install Perl if not installed
 
