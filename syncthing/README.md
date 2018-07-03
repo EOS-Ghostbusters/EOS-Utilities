@@ -2,7 +2,7 @@
 
 (For Ubuntu 16.04+)
 
-This is also anti-GUI because of that Swedish guy. All complaints should be directed to him.
+This is anti-GUI because of that Swedish guy. All complaints should be directed to him.
 
 ### Install
 
