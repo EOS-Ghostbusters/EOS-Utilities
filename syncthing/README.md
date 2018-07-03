@@ -78,9 +78,6 @@ Your local device elemet will look something like this:
     <device id="KLK6CZT-63TKZER-COX5RZV-JMDIJXC-BBS24VJ-FZB7MBJ-GGQX7IN-CRFU5AF" name="ip-172-31-44-198" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
-        <autoAcceptFolders>false</autoAcceptFolders>
-        <maxSendKbps>0</maxSendKbps>
-        <maxRecvKbps>0</maxRecvKbps>
     </device>
 ```
 
@@ -102,9 +99,6 @@ After making these changes, the device element should look something like this:
     <device id="KLK6CZT-63TKZER-COX5RZV-JMDIJXC-BBS24VJ-FZB7MBJ-GGQX7IN-CRFU5AF" name="jae-fn-1" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>tcp://172.16.0.14</address>
         <paused>false</paused>
-        <autoAcceptFolders>false</autoAcceptFolders>
-        <maxSendKbps>0</maxSendKbps>
-        <maxRecvKbps>0</maxRecvKbps>
         <allowedNetwork>172.16.0.0/12</allowedNetwork>
     </device>
 ```
