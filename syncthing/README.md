@@ -37,7 +37,7 @@ Now run:
 ```console
 sudo systemctl start syncthing@<username>.service
 # Check status
-systemctl status syncthing@username.service
+systemctl status syncthing@<username>.service
 ```
 
 You should now be able to find the `Sync` directory at its default location, `~/Sync`. 
