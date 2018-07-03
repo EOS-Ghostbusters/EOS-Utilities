@@ -84,9 +84,11 @@ Your local device elemet will look something like this:
     </device>
 ```
 
+Change the `name` setting to the desired name for your device.
+
 Change the `address` setting to `tcp://<Wireguard-IP-address>:<port>`. You can leave out `:<port>` if you are hosting the service on the default port (22000).
 
-You can also add the `allowedNetworks` setting. For the trusted network, this will look like this: `<allowedNetworks>172.16.0.0/12</allowedNetworks>`
+You can also add the `allowedNetwork` setting. For the trusted network, this will look like this: `<allowedNetwork>172.16.0.0/12</allowedNetwork>`
 
 Given this value, `syncthing` will:
 - Allow connections from the device from addresses in the specified networks.
@@ -97,13 +99,13 @@ Given this value, `syncthing` will:
 After making these changes, the device element should look something like this:
 
 ```console
-    <device id="KLK6CZT-63TKZER-COX5RZV-JMDIJXC-BBS24VJ-FZB7MBJ-GGQX7IN-CRFU5AF" name="ip-172-31-44-198" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
+    <device id="KLK6CZT-63TKZER-COX5RZV-JMDIJXC-BBS24VJ-FZB7MBJ-GGQX7IN-CRFU5AF" name="jae-fn-1" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>tcp://172.16.0.14</address>
         <paused>false</paused>
         <autoAcceptFolders>false</autoAcceptFolders>
         <maxSendKbps>0</maxSendKbps>
         <maxRecvKbps>0</maxRecvKbps>
-        <allowedNetworks>172.16.0.0/12</allowedNetworks>
+        <allowedNetwork>172.16.0.0/12</allowedNetwork>
     </device>
 ```
 
